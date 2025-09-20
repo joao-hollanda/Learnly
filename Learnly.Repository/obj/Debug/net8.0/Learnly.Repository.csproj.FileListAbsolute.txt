@@ -16,3 +16,21 @@ G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Repository\obj\Deb
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.pdb
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.genruntimeconfig.cache
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Repository\obj\Debug\net8.0\ref\Learnly.Repository.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\bin\Debug\net8.0\Learnly.Repository.deps.json
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\bin\Debug\net8.0\Learnly.Repository.runtimeconfig.json
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\bin\Debug\net8.0\Learnly.Repository.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\bin\Debug\net8.0\Learnly.Repository.pdb
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\bin\Debug\net8.0\Learnly.Domain.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\bin\Debug\net8.0\Learnly.Domain.pdb
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.csproj.AssemblyReference.cache
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.AssemblyInfoInputs.cache
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.AssemblyInfo.cs
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.sourcelink.json
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly..09C80479.Up2Date
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\refint\Learnly.Repository.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.pdb
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\Learnly.Repository.genruntimeconfig.cache
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Repository\obj\Debug\net8.0\ref\Learnly.Repository.dll

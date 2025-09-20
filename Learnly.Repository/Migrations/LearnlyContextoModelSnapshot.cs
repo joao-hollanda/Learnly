@@ -113,9 +113,6 @@ namespace Learnly.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<bool>("Acertou")
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("QuestaoId")
                         .HasColumnType("INTEGER");
 

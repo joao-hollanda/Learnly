@@ -24,7 +24,7 @@ public class LearnlyContexto : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (_options == null)
-            optionsBuilder.UseSqlite(@"Filename=./Learnly.sqlite;");
+            optionsBuilder.UseSqlite(@"Data Source=./Learnly.db;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

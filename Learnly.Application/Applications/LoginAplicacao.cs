@@ -14,7 +14,7 @@ namespace Learnly.Application.Applications
         public async Task<bool> ValidarLogin(string nome, string senha)
         {
             var usuarioDominio = await _usuarioRepositorio.ObterPorNome(nome);
-
+            
             if (usuarioDominio == null)
                 throw new Exception("Usuario não encontrado!");
 

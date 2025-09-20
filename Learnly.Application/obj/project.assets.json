@@ -3234,11 +3234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
       "projectName": "Learnly.Application",
-      "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
+      "projectPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
       "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
-      "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\obj\\",
+      "outputPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3253,14 +3253,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
-              "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
+            "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
+              "projectPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
             },
-            "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj": {
-              "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj"
+            "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj": {
+              "projectPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj"
             },
-            "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Services\\Learnly.Services.csproj": {
-              "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Services\\Learnly.Services.csproj"
+            "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Services\\Learnly.Services.csproj": {
+              "projectPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Services\\Learnly.Services.csproj"
             }
           }
         }

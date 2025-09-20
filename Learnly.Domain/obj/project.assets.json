@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
       "projectName": "Learnly.Domain",
-      "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
+      "projectPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
       "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
-      "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"

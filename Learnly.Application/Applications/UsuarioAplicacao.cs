@@ -18,7 +18,9 @@ namespace Learnly.Application.Applications
             if (usuario == null)
                 throw new Exception("Usuario não pode ser vazio!");
 
-            if (ObterPorNome(usuario.Nome) != null)
+            var user = await _usuarioRepositorio.ObterPorNome(usuario.Nome);
+
+            if (user != null)
                 throw new Exception("Já existe um usuário cadastrado com esse nome!");
 
             if (string.IsNullOrEmpty(usuario.Senha))

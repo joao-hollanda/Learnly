@@ -9,6 +9,5 @@ namespace Learnly.Domain.Entities.Simulados
         public int QuestaoId { get; set; }
         public Questao Questao { get; set; }
 
-        public bool Acertou { get; set; }
     }
 }

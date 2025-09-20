@@ -18,3 +18,23 @@ G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Application\obj\De
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Application\obj\Debug\net8.0\refint\Learnly.Application.dll
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.pdb
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Application\obj\Debug\net8.0\ref\Learnly.Application.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Application.deps.json
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Application.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Application.pdb
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Domain.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Repository.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Services.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Domain.pdb
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Repository.pdb
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\bin\Debug\net8.0\Learnly.Services.pdb
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.csproj.AssemblyReference.cache
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.AssemblyInfoInputs.cache
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.AssemblyInfo.cs
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.csproj.CoreCompileInputs.cache
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.sourcelink.json
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly..DCD3DF72.Up2Date
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\refint\Learnly.Application.dll
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\Learnly.Application.pdb
+C:\Users\Público\Desktop\ProjetoFinal\Learnly\Learnly.Application\obj\Debug\net8.0\ref\Learnly.Application.dll

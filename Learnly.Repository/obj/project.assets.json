@@ -4351,11 +4351,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj",
       "projectName": "Learnly.Repository",
-      "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj",
+      "projectPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj",
       "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
-      "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4370,8 +4370,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
-              "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
+            "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
+              "projectPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
             }
           }
         }

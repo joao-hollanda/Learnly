@@ -34,8 +34,7 @@ namespace Learnly.Repository
         public async Task<Usuario> ObterPorNome(string nome)
         {
             return await _contexto.Usuarios
-                .Where(u => u.Nome == nome)
-                .FirstOrDefaultAsync();
+                .FirstOrDefaultAsync(u => u.Nome.ToLower() == nome.ToLower());
         }
 
         public async Task<Usuario> ObterPorEmail(string email)

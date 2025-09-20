@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnly.Services", "Learnly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learnly.Repository", "Learnly.Repository\Learnly.Repository.csproj", "{9F410270-C80D-4653-8189-BAF283A550B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seeder", "Seeder\Seeder.csproj", "{959BD6D8-4871-4BC8-ACDD-079BD9B71B62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,5 +48,9 @@ Global
 		{9F410270-C80D-4653-8189-BAF283A550B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F410270-C80D-4653-8189-BAF283A550B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F410270-C80D-4653-8189-BAF283A550B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959BD6D8-4871-4BC8-ACDD-079BD9B71B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959BD6D8-4871-4BC8-ACDD-079BD9B71B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959BD6D8-4871-4BC8-ACDD-079BD9B71B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959BD6D8-4871-4BC8-ACDD-079BD9B71B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LU00XaZURjE=",
+  "dgSpecHash": "Aq2OcJ6zusw=",
   "success": true,
-  "projectFilePath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Api\\Learnly.Api.csproj",
+  "projectFilePath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Api\\Learnly.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Público\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Público\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
