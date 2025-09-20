@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Api\\Learnly.Api.csproj": {}
+  },
+  "projects": {
+    "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Api\\Learnly.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Api\\Learnly.Api.csproj",
+        "projectName": "Learnly.Api",
+        "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Api\\Learnly.Api.csproj",
+        "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
+        "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\Learnly.Application.csproj": {
+                "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\Learnly.Application.csproj"
+              },
+              "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
+                "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\Learnly.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
+        "projectName": "Learnly.Application",
+        "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
+        "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
+        "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
+                "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
+              },
+              "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Services\\Learnly.Services.csproj": {
+                "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Services\\Learnly.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
+        "projectName": "Learnly.Domain",
+        "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
+        "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
+        "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Services\\Learnly.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Services\\Learnly.Services.csproj",
+        "projectName": "Learnly.Services",
+        "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Services\\Learnly.Services.csproj",
+        "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
+        "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
+                "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
