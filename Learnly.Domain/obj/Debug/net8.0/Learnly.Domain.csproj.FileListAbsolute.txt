@@ -1,36 +1,3 @@
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.deps.json
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.pdb
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.AssemblyInfoInputs.cache
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.AssemblyInfo.cs
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\refint\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.pdb
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\ref\Learnly.Domain.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.deps.json
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.pdb
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.GeneratedMSBuildEditorConfig.editorconfig
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.AssemblyInfoInputs.cache
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.AssemblyInfo.cs
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.csproj.CoreCompileInputs.cache
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\refint\Learnly.Domain.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.pdb
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\ref\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.AssemblyInfoInputs.cache
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.AssemblyInfo.cs
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\refint\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.pdb
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.deps.json
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.pdb
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\ref\Learnly.Domain.dll
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.deps.json
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.dll
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\bin\Debug\net8.0\Learnly.Domain.pdb
@@ -38,6 +5,7 @@ G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\obj\Debug\n
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.AssemblyInfoInputs.cache
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.AssemblyInfo.cs
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.csproj.CoreCompileInputs.cache
+G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.sourcelink.json
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.dll
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\refint\Learnly.Domain.dll
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Domain\obj\Debug\net8.0\Learnly.Domain.pdb

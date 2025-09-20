@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Learnly.Domain.Entities;
-using Learnly.Repositorie.Config;
 using Learnly.Domain.Entities.Simulados;
+using Learnly.Repository.Config;
 
 public class LearnlyContexto : DbContext
 {

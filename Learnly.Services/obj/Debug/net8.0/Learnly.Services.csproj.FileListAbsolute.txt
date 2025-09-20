@@ -1,48 +1,3 @@
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.deps.json
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.dll
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.pdb
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Domain.pdb
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.csproj.AssemblyReference.cache
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.AssemblyInfoInputs.cache
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.AssemblyInfo.cs
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.csproj.CoreCompileInputs.cache
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly..45D4E4A6.Up2Date
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.dll
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\refint\Learnly.Services.dll
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.pdb
-C:\Users\Tarde\Desktop\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\ref\Learnly.Services.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.deps.json
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.pdb
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Domain.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Domain.pdb
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.csproj.AssemblyReference.cache
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.GeneratedMSBuildEditorConfig.editorconfig
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.AssemblyInfoInputs.cache
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.AssemblyInfo.cs
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.csproj.CoreCompileInputs.cache
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly..45D4E4A6.Up2Date
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\refint\Learnly.Services.dll
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.pdb
-G:\Outros computadores\Itera360\Hollanda\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\ref\Learnly.Services.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.deps.json
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.pdb
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Domain.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Domain.pdb
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.csproj.AssemblyReference.cache
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.AssemblyInfoInputs.cache
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.AssemblyInfo.cs
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.csproj.CoreCompileInputs.cache
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly..45D4E4A6.Up2Date
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\refint\Learnly.Services.dll
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.pdb
-C:\Users\Tarde\Desktop\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\ref\Learnly.Services.dll
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.deps.json
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.dll
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\bin\Debug\net8.0\Learnly.Services.pdb
@@ -53,6 +8,7 @@ G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\obj\Debug
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.AssemblyInfoInputs.cache
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.AssemblyInfo.cs
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.csproj.CoreCompileInputs.cache
+G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.sourcelink.json
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly..45D4E4A6.Up2Date
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\Learnly.Services.dll
 G:\Outros computadores\Itera360\Projeto Final\Learnly\Learnly.Services\obj\Debug\net8.0\refint\Learnly.Services.dll

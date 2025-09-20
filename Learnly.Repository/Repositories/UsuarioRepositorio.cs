@@ -1,8 +1,8 @@
 using Learnly.Domain.Entities;
-using Learnly.Repositorie.Interfaces;
+using Learnly.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Learnly.Repositorie
+namespace Learnly.Repository
 {
     public class UsuarioRepositorio : BaseRepositorio, IUsuarioRepositorio
     {

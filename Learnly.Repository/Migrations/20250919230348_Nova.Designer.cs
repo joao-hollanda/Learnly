@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Learnly.Repositorie.Migrations
+namespace Learnly.Repository.Migrations
 {
     [DbContext(typeof(LearnlyContexto))]
     [Migration("20250919230348_Nova")]

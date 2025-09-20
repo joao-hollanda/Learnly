@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Learnly.Application.Interfaces;
-using Learnly.Repositorie.Interfaces;
+using Learnly.Repository.Interfaces;
 
 namespace Learnly.Application.Applications
 {

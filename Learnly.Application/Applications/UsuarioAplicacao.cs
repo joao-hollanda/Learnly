@@ -1,6 +1,6 @@
 using Learnly.Application.Interfaces;
 using Learnly.Domain.Entities;
-using Learnly.Repositorie.Interfaces;
+using Learnly.Repository.Interfaces;
 
 namespace Learnly.Application.Applications
 {

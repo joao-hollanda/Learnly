@@ -4351,11 +4351,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repositorie\\Learnly.Repositorie.csproj",
-      "projectName": "Learnly.Repositorie",
-      "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repositorie\\Learnly.Repositorie.csproj",
+      "projectUniqueName": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj",
+      "projectName": "Learnly.Repository",
+      "projectPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj",
       "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
-      "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repositorie\\obj\\",
+      "outputPath": "G:\\Outros computadores\\Itera360\\Projeto Final\\Learnly\\Learnly.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"

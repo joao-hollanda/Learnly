@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Learnly.Repositorie.Migrations
+namespace Learnly.Repository.Migrations
 {
     /// <inheritdoc />
     public partial class Nova : Migration

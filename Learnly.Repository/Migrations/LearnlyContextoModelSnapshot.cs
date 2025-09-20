@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Learnly.Repositorie.Migrations
+namespace Learnly.Repository.Migrations
 {
     [DbContext(typeof(LearnlyContexto))]
     partial class LearnlyContextoModelSnapshot : ModelSnapshot

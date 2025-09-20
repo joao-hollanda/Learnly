@@ -1,7 +1,7 @@
 using Learnly.Application.Applications;
 using Learnly.Application.Interfaces;
-using Learnly.Repositorie;
-using Learnly.Repositorie.Interfaces;
+using Learnly.Repository;
+using Learnly.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
