@@ -67,7 +67,6 @@ namespace Learnly.Api.Controllers
         }
 
         [HttpGet]
-        [Route()]
         public async Task<IActionResult> Listar([FromQuery] bool ativo)
         {
             try
@@ -98,7 +97,7 @@ namespace Learnly.Api.Controllers
             {
                 var usuarioDominio = new Usuario()
                 {
-                    Id = usuarioId,
+                    Id = Id,
                     Nome = usuario.Nome,
                     Email = usuario.Email,
                     Cidade = usuario.Cidade

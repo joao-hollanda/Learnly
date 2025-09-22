@@ -1,0 +1,32 @@
+[
+    {
+        "questaoId": 321,
+        "alternativaId": 1555,
+        "alternativa": "E"
+    },
+    {
+        "questaoId": 902,
+        "alternativaId": 4333,
+        "alternativa": "E"
+    },
+    {
+        "questaoId": 1826,
+        "alternativaId": 8697,
+        "alternativa": "E"
+    },
+    {
+        "questaoId": 1268,
+        "alternativaId": 6084,
+        "alternativa": "A"
+    },
+    {
+        "questaoId": 1621,
+        "alternativaId": 7759,
+        "alternativa": "B"
+    },
+    {
+        "questaoId": 2524,
+        "alternativaId": 11975,
+        "alternativa": "E"
+    }
+]

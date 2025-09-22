@@ -18,52 +18,65 @@ namespace Learnly.Application.Applications
 
         public async Task<int> GerarSimulado(Simulado simulado, List<string> disciplinas, int totalQuestoes = 25)
         {
-            if (await _usuarioRepositorio.Obter(simulado.UsuarioId, true) == null)
-                throw new Exception("Usuario não encontrado!");
-
-            if (simulado == null)
-                throw new Exception("Simulado não pode ser vazio!");
-
             if (simulado == null)
                 throw new ArgumentException("Simulado não pode ser nulo.");
+
+            var usuario = await _usuarioRepositorio.Obter(simulado.UsuarioId, true);
+            if (usuario == null)
+                throw new Exception("Usuário não encontrado!");
 
             var questoes = await _simuladoRepositorio.GerarQuestoesAsync(disciplinas, totalQuestoes);
 
             var simuladoQuestoes = questoes.Select(q => new SimuladoQuestao
             {
-                SimuladoId = simulado.SimuladoId,
                 QuestaoId = q.QuestaoId
             }).ToList();
 
             var simuladoId = await _simuladoRepositorio.GerarSimulado(simulado, simuladoQuestoes);
 
-            await _simuladoRepositorio.AtualizarSimuladoAsync(simuladoQuestoes);
-
             return simuladoId;
         }
 
-        public async Task<int> ResponderSimulado(int id, List<RespostaSimulado> respostas)
+        public async Task<Simulado> ResponderSimulado(Simulado simulado)
         {
-            if (await _simuladoRepositorio.Obter(id) == null)
-                throw new Exception("Usuario não encontrado!");
-
             if (simulado == null)
-                throw new Exception("Simulado não pode ser vazio!");
+                throw new ArgumentException("Simulado não encontrado!");
 
-            var simuladoId = await _simuladoRepositorio.GerarSimulado(simulado, disciplinas, totalQuestoes);
+            var desempenho = new DesempenhoSimulado();
 
-            var questoes = await _simuladoRepositorio.GerarQuestoesAsync(disciplinas, totalQuestoes);
-
-            var simuladoQuestoes = questoes.Select(q => new SimuladoQuestao
+            foreach (var resposta in simulado.Respostas)
             {
-                SimuladoId = simuladoId,
-                QuestaoId = q.QuestaoId
-            }).ToList();
+                resposta.Questao = await _simuladoRepositorio.ObterQuestao(resposta.QuestaoId);
+                resposta.Alternativa = await _simuladoRepositorio.ObterAlternativa(resposta.AlternativaId);
 
-            await _simuladoRepositorio.AtualizarSimuladoAsync(simuladoQuestoes);
+                if (resposta.Questao == null)
+                    throw new Exception($"Questão {resposta.QuestaoId} não encontrada.");
 
-            return simuladoId;
+                if (resposta.Alternativa == null)
+                    throw new Exception($"Alternativa {resposta.AlternativaId} não encontrada.");
+
+                if (resposta.Questao.AlternativaCorreta == resposta.Alternativa.Letra)
+                    resposta.Alternativa.Correta = true;
+
+                desempenho.QuantidadeDeQuestoes++;
+            }
+
+            desempenho.QuantidadeDeAcertos = simulado.Respostas.Count(r => r.Alternativa.Correta);
+            simulado.Desempenho = desempenho;
+            simulado.NotaFinal = (decimal)desempenho.QuantidadeDeAcertos / desempenho.QuantidadeDeQuestoes * 10;
+
+            await _simuladoRepositorio.ResponderSimulado(simulado);
+            return await _simuladoRepositorio.Obter(simulado.SimuladoId);
         }
 
+        public async Task<Simulado> Obter(int id)
+        {
+            var simuladoDominio = await _simuladoRepositorio.Obter(id);
+
+            if (simuladoDominio == null)
+                throw new Exception("Simulado não encontrado!");
+
+            return simuladoDominio;
+        }
     }
 }

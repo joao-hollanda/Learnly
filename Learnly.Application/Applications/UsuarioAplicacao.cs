@@ -37,7 +37,6 @@ namespace Learnly.Application.Applications
         {
             var usuarioDominio = await _usuarioRepositorio.Obter(usuario.Id, true);
 
-
             if (usuarioDominio == null)
                 throw new Exception("Usuario não encontrado!");
 

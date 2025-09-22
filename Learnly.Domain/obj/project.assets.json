@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Hollanda's\\.nuget\\packages\\": {}
+    "C:\\Users\\Tarde\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
       "projectName": "Learnly.Domain",
-      "projectPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
-      "packagesPath": "C:\\Users\\Hollanda's\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
+      "packagesPath": "C:\\Users\\Tarde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hollanda's\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Tarde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

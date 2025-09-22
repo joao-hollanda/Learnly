@@ -3229,38 +3229,40 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hollanda's\\.nuget\\packages\\": {}
+    "C:\\Users\\Tarde\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
       "projectName": "Learnly.Application",
-      "projectPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
-      "packagesPath": "C:\\Users\\Hollanda's\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Application\\obj\\",
+      "projectPath": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Application\\Learnly.Application.csproj",
+      "packagesPath": "C:\\Users\\Tarde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hollanda's\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Tarde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
-              "projectPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
+            "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
+              "projectPath": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj"
             },
-            "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj": {
-              "projectPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj"
+            "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj": {
+              "projectPath": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Repository\\Learnly.Repository.csproj"
             },
-            "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Services\\Learnly.Services.csproj": {
-              "projectPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Services\\Learnly.Services.csproj"
+            "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Services\\Learnly.Services.csproj": {
+              "projectPath": "C:\\Users\\Tarde\\Documents\\GitHub\\Learnly\\Learnly.Services\\Learnly.Services.csproj"
             }
           }
         }
@@ -3301,7 +3303,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

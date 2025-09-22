@@ -23,6 +23,9 @@ namespace Learnly.Repository.Repositories
             _context.Simulados.Add(simulado);
             await _context.SaveChangesAsync();
 
+            foreach (var q in questoes)
+                q.SimuladoId = simulado.SimuladoId;
+
             _context.SimuladoQuestoes.AddRange(questoes);
             await _context.SaveChangesAsync();
 
@@ -30,6 +33,8 @@ namespace Learnly.Repository.Repositories
 
             return simulado.SimuladoId;
         }
+
+
 
         public async Task<List<Questao>> GerarQuestoesAsync(List<string> disciplinas, int totalQuestoes = 25)
         {
@@ -61,44 +66,26 @@ namespace Learnly.Repository.Repositories
             return resultado;
         }
 
-        public async Task<Simulado> ObterSimulado(int simuladoId)
+        public async Task<Simulado> Obter(int simuladoId)
         {
-            return await _context.Simulados.FirstOrDefaultAsync(s => s.SimuladoId == simuladoId && s.Respostas == null);
+            return await _context.Simulados.FirstOrDefaultAsync(s => s.SimuladoId == simuladoId);
         }
 
-        public async Task<Simulado> ResponderSimulado(int simuladoId, List<RespostaSimulado> respostas)
+        public async Task<Questao> ObterQuestao(int questaoId)
         {
-            var simuladoDominio = await ObterSimulado(simuladoId);
+            return await _context.Questoes.FirstOrDefaultAsync(q => q.QuestaoId == questaoId);
+        }
+        public async Task<Alternativa> ObterAlternativa(int alternativaId)
+        {
+            return await _context.Alternativas.FirstOrDefaultAsync(a => a.AlternativaId == alternativaId);
+        }
 
-            if (simuladoDominio == null)
-                throw new Exception("Simulado não encontrado!");
-
-            if (simuladoDominio.Respostas != null && simuladoDominio.Respostas.Any())
-                throw new Exception("Simulado já respondido!");
-
-            int corretas = 0;
-            simuladoDominio.Respostas = new List<RespostaSimulado>();
-
-            foreach (var resposta in respostas)
-            {
-                var questao = simuladoDominio.Questoes
-                    .FirstOrDefault(q => q.QuestaoId == resposta.QuestaoId);
-
-                if (questao == null)
-                    throw new Exception($"Questão {resposta.QuestaoId} não encontrada no simulado.");
-
-                if (questao.Questao.AlternativaCorreta == resposta.Alternativa.Letra)
-                    corretas++;
-
-                simuladoDominio.Respostas.Add(resposta);
-            }
-
-            simuladoDominio.NotaFinal = corretas / simuladoDominio.Questoes.Count * 10;
+        public async Task ResponderSimulado(Simulado simulado)
+        {
+            _context.Simulados.Update(simulado);
+            await _context.RespostasSimulado.AddRangeAsync(simulado.Respostas);
             await _context.SaveChangesAsync();
-
-            return simuladoDominio;
         }
-
 
 
         public async Task AtualizarSimuladoAsync(List<SimuladoQuestao> simuladoQuestoes)

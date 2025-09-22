@@ -23,7 +23,7 @@ namespace Learnly.Api.Controllers
         {
             try
             {
-                var teste = await _loginAplicacao.ValidarLogin(dto.Nome, dto.Senha);
+                var teste = await _loginAplicacao.ValidarLogin(dto.Email, dto.Senha);
 
                 return Ok(teste);
                 // return Ok(new { token = "jwt_token_aqui" });
