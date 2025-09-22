@@ -11,9 +11,9 @@ namespace Learnly.Application.Applications
         {
             _usuarioRepositorio = usuarioRepositorio;
         }
-        public async Task<bool> ValidarLogin(string nome, string senha)
+        public async Task<bool> ValidarLogin(string email, string senha)
         {
-            var usuarioDominio = await _usuarioRepositorio.ObterPorNome(nome);
+            var usuarioDominio = await _usuarioRepositorio.ObterPorEmail(email);
             
             if (usuarioDominio == null)
                 throw new Exception("Usuario não encontrado!");
@@ -21,8 +21,8 @@ namespace Learnly.Application.Applications
             if (string.IsNullOrEmpty(senha))
                 throw new Exception("Senha é obrigatória!");
 
-            if (string.IsNullOrEmpty(nome))
-                throw new Exception("Nome é obrigatório!");
+            if (string.IsNullOrEmpty(email))
+                throw new Exception("Email é obrigatório!");
 
             if (!BCrypt.Net.BCrypt.Verify(senha, usuarioDominio.Senha))
                 throw new Exception("Senha incorreta!");

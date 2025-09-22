@@ -2,6 +2,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Learnly.Domain.Entities.Simulados;
 using Learnly.Repository.Interfaces;
+using Microsoft.VisualBasic;
 
 namespace Learnly.Repository.Repositories
 {
@@ -14,32 +15,21 @@ namespace Learnly.Repository.Repositories
             _context = context;
         }
 
-        public async Task<int> GerarSimulado(Simulado simulado, List<string> disciplinas, int totalQuestoes = 25)
+        public async Task<int> GerarSimulado(Simulado simulado, List<SimuladoQuestao> questoes)
         {
-            if (simulado == null)
-                throw new ArgumentException("Simulado não pode ser nulo.");
 
             await using var transaction = await _context.Database.BeginTransactionAsync();
 
             _context.Simulados.Add(simulado);
             await _context.SaveChangesAsync();
 
-            var questoes = await GerarQuestoesAsync(disciplinas, totalQuestoes);
-
-            var simuladoQuestoes = questoes.Select(q => new SimuladoQuestao
-            {
-                SimuladoId = simulado.SimuladoId,
-                QuestaoId = q.QuestaoId
-            }).ToList();
-
-            _context.SimuladoQuestoes.AddRange(simuladoQuestoes);
+            _context.SimuladoQuestoes.AddRange(questoes);
             await _context.SaveChangesAsync();
 
             await transaction.CommitAsync();
 
             return simulado.SimuladoId;
         }
-
 
         public async Task<List<Questao>> GerarQuestoesAsync(List<string> disciplinas, int totalQuestoes = 25)
         {
@@ -70,6 +60,45 @@ namespace Learnly.Repository.Repositories
 
             return resultado;
         }
+
+        public async Task<Simulado> ObterSimulado(int simuladoId)
+        {
+            return await _context.Simulados.FirstOrDefaultAsync(s => s.SimuladoId == simuladoId && s.Respostas == null);
+        }
+
+        public async Task<Simulado> ResponderSimulado(int simuladoId, List<RespostaSimulado> respostas)
+        {
+            var simuladoDominio = await ObterSimulado(simuladoId);
+
+            if (simuladoDominio == null)
+                throw new Exception("Simulado não encontrado!");
+
+            if (simuladoDominio.Respostas != null && simuladoDominio.Respostas.Any())
+                throw new Exception("Simulado já respondido!");
+
+            int corretas = 0;
+            simuladoDominio.Respostas = new List<RespostaSimulado>();
+
+            foreach (var resposta in respostas)
+            {
+                var questao = simuladoDominio.Questoes
+                    .FirstOrDefault(q => q.QuestaoId == resposta.QuestaoId);
+
+                if (questao == null)
+                    throw new Exception($"Questão {resposta.QuestaoId} não encontrada no simulado.");
+
+                if (questao.Questao.AlternativaCorreta == resposta.Alternativa.Letra)
+                    corretas++;
+
+                simuladoDominio.Respostas.Add(resposta);
+            }
+
+            simuladoDominio.NotaFinal = corretas / simuladoDominio.Questoes.Count * 10;
+            await _context.SaveChangesAsync();
+
+            return simuladoDominio;
+        }
+
 
 
         public async Task AtualizarSimuladoAsync(List<SimuladoQuestao> simuladoQuestoes)

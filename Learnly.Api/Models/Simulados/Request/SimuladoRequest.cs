@@ -7,7 +7,6 @@ namespace Learnly.Api.Models.Simulados.Request
 {
     public class SimuladoRequest
     {
-        public int UsuarioId { get; set; }
         public List<string> Disciplinas { get; set; }
         public int QuantidadeQuestoes { get; set; }
     }

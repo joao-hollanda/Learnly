@@ -8,7 +8,7 @@ namespace Learnly.Repository.Interfaces
 {
     public interface ISimuladoRepositorio
     {
-        Task<int> GerarSimulado(Simulado simulado, List<string> disciplinas, int totalQuestoes = 25);
+        Task<int> GerarSimulado(Simulado simulado, List<SimuladoQuestao> questoes);
         Task<List<Questao>> GerarQuestoesAsync(List<string> disciplinas, int totalQuestoes = 25);
         Task AtualizarSimuladoAsync(List<SimuladoQuestao> simuladoQuestoes);
     }

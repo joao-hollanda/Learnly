@@ -43,7 +43,7 @@ namespace Learnly.Api.Controllers
         }
 
         [HttpGet]
-        [Route("Obter/{usuarioId}")]
+        [Route("/{usuarioId}")]
         public async Task<IActionResult> Obter([FromRoute] int usuarioId)
         {
             try
@@ -67,7 +67,7 @@ namespace Learnly.Api.Controllers
         }
 
         [HttpGet]
-        [Route("Listar")]
+        [Route()]
         public async Task<IActionResult> Listar([FromQuery] bool ativo)
         {
             try
@@ -91,14 +91,14 @@ namespace Learnly.Api.Controllers
         }
 
         [HttpPut]
-        [Route("Atualizar")]
-        public async Task<IActionResult> Atualizar([FromBody] UsuarioAtualizar usuario)
+        [Route("/{Id}")]
+        public async Task<IActionResult> Atualizar([FromRoute] int Id, [FromBody] UsuarioAtualizar usuario)
         {
             try
             {
                 var usuarioDominio = new Usuario()
                 {
-                    Id = usuario.Id,
+                    Id = usuarioId,
                     Nome = usuario.Nome,
                     Email = usuario.Email,
                     Cidade = usuario.Cidade
@@ -114,12 +114,12 @@ namespace Learnly.Api.Controllers
             }
         }
         [HttpPut]
-        [Route("AlterarSenha")]
-        public async Task<IActionResult> AlterarSenha([FromBody] UsuarioAtualizarSenha usuario)
+        [Route("AlterarSenha/{Id}")]
+        public async Task<IActionResult> AlterarSenha([FromRoute] int Id, [FromBody] UsuarioAtualizarSenha usuario)
         {
             try
             {
-                await _usuarioAplicacao.AlterarSenha(usuario.Id, usuario.SenhaAntiga, usuario.Senha);
+                await _usuarioAplicacao.AlterarSenha(Id, usuario.SenhaAntiga, usuario.Senha);
 
                 return Ok("Senha alterada com sucesso!");
             }

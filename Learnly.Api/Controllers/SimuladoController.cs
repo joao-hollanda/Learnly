@@ -19,14 +19,15 @@ namespace Learnly.Api.Controllers
             _simuladoAplicacao = simuladoAplicacao;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CriarSimulado(SimuladoRequest dto)
+        [HttpPost()]
+        [Route("/{usuarioId}")]
+        public async Task<IActionResult> CriarSimulado([FromRoute] int usuarioId, [FromBody] SimuladoRequest dto)
         {
             try
             {
                 var simuladoDominio = new Simulado
                 {
-                    UsuarioId = dto.UsuarioId,
+                    UsuarioId = usuarioId,
                     Data = DateTime.Now                  
                 };
 
@@ -38,6 +39,14 @@ namespace Learnly.Api.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+        [HttpPut()]
+        [Route("Corrigir/{simuladoId}")]
+
+        public async Task<IActionResult> CorrigirSimulado([FromRoute] int simuladoId)
+        {
+            
         }
     }
 }

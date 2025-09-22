@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {}
+    "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
+    "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
+        "projectUniqueName": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
         "projectName": "Learnly.Domain",
-        "projectPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
-        "packagesPath": "C:\\Users\\Público\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Público\\Desktop\\ProjetoFinal\\Learnly\\Learnly.Domain\\obj\\",
+        "projectPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\Learnly.Domain.csproj",
+        "packagesPath": "C:\\Users\\Hollanda's\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Hollanda's\\Documents\\GitHub\\Learnly\\Learnly.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Público\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Hollanda's\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
