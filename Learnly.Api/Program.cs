@@ -3,6 +3,8 @@ using Learnly.Application.Interfaces;
 using Learnly.Repository;
 using Learnly.Repository.Interfaces;
 using Learnly.Repository.Repositories;
+using Learnly.Services.IAService;
+using Learnly.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +18,12 @@ builder.Services.AddScoped<ISimuladoAplicacao, SimuladoAplicacao>();
 
 // Adicionar Serviços
 
-// builder.Services.AddScoped<Interface, Aplicacao>();
+builder.Services.AddScoped<IIAService>(sp =>
+{
+    var config = sp.GetRequiredService<IConfiguration>();
+    var apiKey = config["ApiKeys:GroqIA"];
+    return new IAService(apiKey);
+});
 
 // Adicionar repositorios
 

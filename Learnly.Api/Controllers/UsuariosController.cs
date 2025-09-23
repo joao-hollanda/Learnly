@@ -43,7 +43,7 @@ namespace Learnly.Api.Controllers
         }
 
         [HttpGet]
-        [Route("/{usuarioId}")]
+        [Route("{usuarioId}")]
         public async Task<IActionResult> Obter([FromRoute] int usuarioId)
         {
             try
@@ -90,7 +90,7 @@ namespace Learnly.Api.Controllers
         }
 
         [HttpPut]
-        [Route("/{Id}")]
+        [Route("{Id}")]
         public async Task<IActionResult> Atualizar([FromRoute] int Id, [FromBody] UsuarioAtualizar usuario)
         {
             try

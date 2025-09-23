@@ -2,6 +2,7 @@ using Learnly.Application.Interfaces;
 using Learnly.Domain.Entities;
 using Learnly.Domain.Entities.Simulados;
 using Learnly.Repository.Interfaces;
+using Learnly.Services.Interfaces;
 
 namespace Learnly.Application.Applications
 {
@@ -9,11 +10,13 @@ namespace Learnly.Application.Applications
     {
         readonly ISimuladoRepositorio _simuladoRepositorio;
         readonly IUsuarioRepositorio _usuarioRepositorio;
+        readonly IIAService _iaService;
 
-        public SimuladoAplicacao(ISimuladoRepositorio simuladoRepositorio, IUsuarioRepositorio usuarioRepositorio)
+        public SimuladoAplicacao(ISimuladoRepositorio simuladoRepositorio, IUsuarioRepositorio usuarioRepositorio, IIAService iaService)
         {
             _simuladoRepositorio = simuladoRepositorio;
             _usuarioRepositorio = usuarioRepositorio;
+            _iaService = iaService;
         }
 
         public async Task<int> GerarSimulado(Simulado simulado, List<string> disciplinas, int totalQuestoes = 25)
@@ -63,6 +66,7 @@ namespace Learnly.Application.Applications
 
             desempenho.QuantidadeDeAcertos = simulado.Respostas.Count(r => r.Alternativa.Correta);
             simulado.Desempenho = desempenho;
+            simulado.Desempenho.Feedback = await _iaService.GerarFeedbackAsync(simulado);
             simulado.NotaFinal = (decimal)desempenho.QuantidadeDeAcertos / desempenho.QuantidadeDeQuestoes * 10;
 
             await _simuladoRepositorio.ResponderSimulado(simulado);
