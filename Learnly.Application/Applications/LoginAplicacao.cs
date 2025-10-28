@@ -1,4 +1,5 @@
 using Learnly.Application.Interfaces;
+using Learnly.Domain.Entities;
 using Learnly.Repository.Interfaces;
 
 namespace Learnly.Application.Applications
@@ -11,7 +12,7 @@ namespace Learnly.Application.Applications
         {
             _usuarioRepositorio = usuarioRepositorio;
         }
-        public async Task<bool> ValidarLogin(string email, string senha)
+        public async Task<Usuario> ValidarLogin(string email, string senha)
         {
             var usuarioDominio = await _usuarioRepositorio.ObterPorEmail(email);
             
@@ -27,7 +28,7 @@ namespace Learnly.Application.Applications
             if (!BCrypt.Net.BCrypt.Verify(senha, usuarioDominio.Senha))
                 throw new Exception("Senha incorreta!");
 
-            return true;
+            return usuarioDominio;
         }
     }
 }

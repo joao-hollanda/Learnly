@@ -15,6 +15,13 @@ builder.Services.AddScoped<ILoginAplicacao, LoginAplicacao>();
 builder.Services.AddScoped<IUsuarioAplicacao, UsuarioAplicacao>();
 builder.Services.AddScoped<ISimuladoAplicacao, SimuladoAplicacao>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReact", policy =>
+        policy.AllowAnyOrigin()      // ou .WithOrigins("http://localhost:3000")
+              .AllowAnyHeader()
+              .AllowAnyMethod());
+});
 
 // Adicionar Serviços
 
@@ -47,6 +54,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowReact");
 
 app.UseHttpsRedirection();
 
